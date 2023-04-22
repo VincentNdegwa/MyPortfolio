@@ -9,6 +9,9 @@
   justify-content: center;
   align-items: center;
 }
+.skill-header {
+  margin-top: 2em;
+}
 
 .skills-container {
   width: 80%;
@@ -23,17 +26,29 @@
   flex-flow: wrap;
 }
 .skill-item {
-  width: 20em;
+  width: 30em;
   height: 3em;
 }
 .skill-name {
   font-size: 2em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  position: relative;
+}
+.skill-icon {
+  font-size: 1.2em;
+  color: yellow;
+}
+.skill-tittle {
+  font-weight: bold;
 }
 .skill-table {
   width: 100%;
   height: 2em;
   background: rgba(0, 0, 0, 0.3);
   position: relative;
+  border-radius: 2em;
 }
 .skill-range {
   width: 90%;
@@ -41,8 +56,10 @@
   background-color: #2272ff;
   position: absolute;
   top: 0em;
+  border-radius: 2em;
 }
 .skill-range > h2 {
   position: absolute;
   top: -0.7em;
+  text-indent: 1em;
 }

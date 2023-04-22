@@ -17,8 +17,11 @@
   margin-bottom: 10%;
 }
 .hero-name {
-  font-size: clamp(2.5em, 4em, 6em);
+  font-size: 10em;
 }
+/* .hero-name > span {
+  font-size: 3em;
+} */
 .hero-skills {
   font-size: clamp(0.5em, 1.5em, 3em);
   margin-left: 10%;

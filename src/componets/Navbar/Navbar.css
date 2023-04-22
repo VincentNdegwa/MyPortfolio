@@ -18,13 +18,14 @@
   color: #2272ff;
   display: flex;
   flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
   height: auto;
-  width: 100%;
+  width: 10em;
   row-gap: 5px;
-  text-align: center;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   text-decoration: none;
+  align-items: center;
 }
 .nav-icon {
   font-size: 1.5em;
@@ -36,7 +37,7 @@
 }
 .nav-text {
   margin-bottom: 0;
-  font-size: 7px;
+  font-size: 1.2em;
   text-decoration: none;
 }
 .nav:hover {

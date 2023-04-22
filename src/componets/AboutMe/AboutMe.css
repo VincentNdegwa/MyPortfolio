@@ -10,9 +10,10 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
+  margin-top: 4em;
 }
 header {
-  font-size: 2em;
+  font-size: 3em;
   color: #2272ff;
 }
 .AboutMe-description {
@@ -28,7 +29,7 @@ header {
 }
 .AboutMe-description > p {
   margin-top: 10%;
-  font-size: 1.5em;
+  font-size: 2.2em;
   height: 60%;
 }
 .AboutMe-socials {
@@ -42,15 +43,16 @@ header {
 }
 .AboutMe-icon {
   background: rgba(0, 0, 0, 0.2);
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 1em;
+  font-size: 2em;
 }
 .download-cv {
-  padding: 1em;
+  padding: 0.5em;
   background: rgba(0, 0, 0, 0.2);
   width: 10em;
-  height: 1em;
   border-radius: 2em;
+  font-size: 1.3em;
 }
 .download-cv > a,
 .AboutMe-icon > a {
