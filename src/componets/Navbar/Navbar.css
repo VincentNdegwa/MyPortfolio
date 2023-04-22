@@ -1,0 +1,48 @@
+.navabar {
+  position: fixed;
+  color: white;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  height: auto;
+  border-radius: 1em;
+  row-gap: 0.5em;
+  width: auto;
+  justify-content: space-between;
+  column-gap: 1em;
+  z-index: 1000;
+}
+.nav {
+  position: static;
+  color: #2272ff;
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  width: 100%;
+  row-gap: 5px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.nav-icon {
+  font-size: 1.5em;
+  padding: 15px;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  background: rgba(0, 0, 0, 0.2);
+}
+.nav-text {
+  margin-bottom: 0;
+  font-size: 7px;
+  text-decoration: none;
+}
+.nav:hover {
+  color: white;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}

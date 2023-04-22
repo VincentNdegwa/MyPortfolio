@@ -1,0 +1,58 @@
+.AboutMe {
+  color: white;
+  position: absolute;
+  background: #222222;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border-top: 1px solid #2272ff;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-size: 2em;
+  color: #2272ff;
+}
+.AboutMe-description {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AboutMe-description > p {
+  margin-top: 10%;
+  font-size: 1.5em;
+  height: 60%;
+}
+.AboutMe-socials {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+}
+.AboutMe-icon {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border-radius: 1em;
+}
+.download-cv {
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.2);
+  width: 10em;
+  height: 1em;
+  border-radius: 2em;
+}
+.download-cv > a,
+.AboutMe-icon > a {
+  color: #2272ff;
+}
