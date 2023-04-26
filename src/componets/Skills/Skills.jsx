@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import skillData from "../Data/SkillsData";
+import skillData from "../../Data/SkillsData";
 
 function Skills() {
   return (

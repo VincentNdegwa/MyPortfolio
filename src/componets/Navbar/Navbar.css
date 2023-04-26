@@ -12,6 +12,7 @@
   justify-content: space-between;
   column-gap: 1em;
   z-index: 1000;
+  background: #222222;
 }
 .nav {
   position: static;
@@ -26,6 +27,7 @@
   border-radius: 10px;
   text-decoration: none;
   align-items: center;
+  box-shadow: -1px -1px 5px yellow;
 }
 .nav-icon {
   font-size: 1.5em;

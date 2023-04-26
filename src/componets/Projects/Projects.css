@@ -1,0 +1,69 @@
+.Projects {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 200vh;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Projects-container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2em;
+  justify-content: space-evenly;
+  row-gap: 3em;
+}
+.Projects-item-holder {
+  width: 320px;
+  height: 350px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Project-card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.Project-image {
+  width: 100%;
+  text-align: center;
+}
+.Project-image > img {
+  width: 98%;
+  height: 50%;
+  border-radius: 12px;
+}
+.Project-name {
+  color: yellow;
+}
+.Project-github-live {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 1.3em;
+}
+.Project-description {
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+.Project-description > p {
+  font-size: 1.3em;
+}
+.Project-live,
+.Project-github {
+  font-size: 3em;
+}
+.Project-live:hover,
+.Project-github:hover {
+  color: yellow;
+  transition: all ease 2s;
+}
+.Projects-item-holder:hover {
+  box-shadow: -1px -1px 5px yellow;
+  transition: all ease 1s;
+}

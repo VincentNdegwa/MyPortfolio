@@ -8,7 +8,7 @@ function HeroPage() {
         <div>
           <div className="hero-name">
             <h1>
-              <span>Vin</span>cent Nde<span>gwa</span>
+              <span>Vin</span>cent Nde<span className="span-name2">gwa</span>
             </h1>
           </div>
 
