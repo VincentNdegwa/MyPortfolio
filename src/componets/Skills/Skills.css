@@ -51,7 +51,7 @@
   border-radius: 2em;
 }
 .skill-range {
-  width: 90%;
+  /* width: 90%; */
   height: 2em;
   background-color: #2272ff;
   position: absolute;
