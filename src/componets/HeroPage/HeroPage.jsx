@@ -5,15 +5,21 @@ function HeroPage() {
   return (
     <div className="hero-page">
       <div className="hero-details">
-        <div>
+        <div className="hero-item">
           <div className="hero-name">
-            <h1>
-              <span>Vin</span>cent Nde<span className="span-name2">gwa</span>
-            </h1>
+            <span>Vin</span>cent Nde<span className="span-name2">gwa</span>
           </div>
 
           <div className="hero-skills">
-            <h4>Software Engineer / Front-End Web Developer/ UI/UX Designer</h4>
+            <div>
+              Skilled Software Engineer with a Passion for Front-End Web
+              Development and User-Centered Design
+            </div>
+
+            <p>
+              Solving problems and simplifying the complex through elegant
+              design and coding
+            </p>
           </div>
         </div>
       </div>

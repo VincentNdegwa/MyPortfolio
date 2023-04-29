@@ -1,0 +1,121 @@
+.Contacts {
+  width: 100%;
+  height: 100vh;
+  margin-top: 2em;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+  height: 100%;
+}
+.contact-item-left {
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+}
+.contact-item-right {
+  width: 50%;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7em;
+  row-gap: 0.5em;
+  margin-top: 2em;
+  color: #2272ff;
+}
+input {
+  height: 2em;
+  font-size: 20px;
+  border-radius: 1.3em;
+  text-indent: 1.5em;
+  transition: all ease 0.5s;
+}
+input:focus {
+  outline: 1px yellow;
+  border: 3.5px solid yellow;
+  transition: all ease-out 0.5s;
+}
+textarea {
+  font-size: 1.2em;
+  resize: none;
+  height: 6em;
+  outline: yellow;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  color: yellow;
+  font-size: 2em;
+}
+.send-btn {
+  padding: 0.3em;
+  width: 5em;
+  font-size: 1.5em;
+  border-radius: 2em;
+  background-color: #2272ff;
+  color: yellow;
+}
+.contact-AboutMe-socials {
+  margin-top: 15em;
+  margin-right: 10em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  row-gap: 2em;
+}
+.contact-image {
+  width: 20em;
+  height: 22em;
+}
+.contact-image > img {
+  width: 100%;
+  height: 20em;
+}
+.contact-image > p {
+  height: 2em;
+  width: 20em;
+}
+.submit-message {
+  margin-top: 2em;
+  height: 3em;
+  width: 20em;
+  border: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 3s ease;
+  transform: translateX(0);
+}
+.submit-message-disappear {
+  margin-top: 2em;
+  height: 3em;
+  width: 20em;
+  border: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 3s ease;
+  transform: translateX(-200%);
+}
+.message-sent,
+.message-not-sent {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.message-sent {
+  color: yellow;
+}
+.message-not-sent {
+  color: red;
+}

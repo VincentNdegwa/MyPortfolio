@@ -4,10 +4,28 @@ import { AiFillHome } from "react-icons/ai";
 import { BsPersonCircle, BsFillTerminalFill } from "react-icons/bs";
 import { GiAchievement } from "react-icons/gi";
 import { FiMessageCircle } from "react-icons/fi";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
+  const [isScrolling, setIsScrolling] = React.useState(false);
+  const location = useLocation();
+
+  React.useEffect(() => {
+    function handleScroll() {
+      setIsScrolling(window.scrollY > 0);
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="navabar">
+    <div
+      className={
+        isScrolling || location.hash === "#Home" ? "navbar" : "navbar-active"
+      }
+    >
       <a href="#Home">
         <div className="nav">
           <div className="nav-icon">

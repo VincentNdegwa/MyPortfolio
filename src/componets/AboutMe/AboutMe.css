@@ -1,60 +1,114 @@
 .AboutMe {
   color: white;
-  position: absolute;
   background: #222222;
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
-  border-top: 1px solid #2272ff;
   text-align: center;
   flex-direction: column;
+  align-items: center;
   margin: 0;
   padding: 0;
   margin-top: 4em;
+}
+.About-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  margin-top: 3em;
 }
 header {
   font-size: 3em;
   color: #2272ff;
 }
+.aboutme-middle {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(45deg, yellow, #2272ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .AboutMe-description {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50%;
-  height: 90%;
+  width: 99%;
+  height: 99%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #222222;
 }
+.about-me-main {
+  width: 100%;
+  height: 100%;
+  row-gap: 3em;
+  display: flex;
+  flex-direction: column;
+}
+.about-me-item {
+  width: 100%;
+  height: 10em;
+  display: flex;
+  flex-direction: row;
+}
+.about-text {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  font-size: 1.4em;
+}
+.about-text > p {
+  width: 100%;
+}
+.about-image {
+  width: 40%;
+  height: 90%;
+}
+.about-image > img {
+  width: 70%;
+  height: 100%;
+  border-radius: 2em;
+}
+.item2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1em;
+}
+
 .AboutMe-description > p {
   margin-top: 10%;
   font-size: 2.2em;
   height: 60%;
 }
 .AboutMe-socials {
-  position: absolute;
-  left: 5%;
-  top: 50%;
-  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   row-gap: 0.5em;
+  margin-left: 2em;
+  margin-top: 3em;
 }
 .AboutMe-icon {
   background: rgba(0, 0, 0, 0.2);
   padding: 0.5em;
   border-radius: 1em;
   font-size: 2em;
+  width: 2em;
 }
 .download-cv {
-  padding: 0.5em;
+  padding: 1em;
   background: rgba(0, 0, 0, 0.2);
-  width: 10em;
   border-radius: 2em;
   font-size: 1.3em;
+  margin-left: -3em;
+  rotate: 90deg;
+  margin-top: 4em;
 }
 .download-cv > a,
 .AboutMe-icon > a {
+  color: yellow;
+}
+.download-cv > a:hover,
+.AboutMe-icon > a:hover {
   color: #2272ff;
 }

@@ -46,10 +46,10 @@ function MyParticles() {
             value: "#2272ff",
           },
           links: {
-            color: "#ffff00",
+            color: "#2272ff",
             distance: 50,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.3,
             width: 1,
           },
           collisions: {
@@ -73,7 +73,7 @@ function MyParticles() {
             value: 40,
           },
           opacity: {
-            value: 0.4,
+            value: 0.1,
           },
           shape: {
             type: "circle",

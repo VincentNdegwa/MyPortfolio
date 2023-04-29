@@ -1,8 +1,6 @@
 .Projects {
   width: 100%;
   height: auto;
-  position: absolute;
-  margin-top: 200vh;
   background-color: #222222;
   display: flex;
   flex-direction: column;
@@ -17,6 +15,7 @@
   column-gap: 2em;
   justify-content: space-evenly;
   row-gap: 3em;
+  margin-top: 2.5%;
 }
 .Projects-item-holder {
   width: 320px;
@@ -58,12 +57,17 @@
 .Project-github {
   font-size: 3em;
 }
-.Project-live:hover,
-.Project-github:hover {
+.Project-live a:hover,
+.Project-github a:hover {
   color: yellow;
-  transition: all ease 2s;
+  transition: ease 2s;
 }
 .Projects-item-holder:hover {
   box-shadow: -1px -1px 5px yellow;
-  transition: all ease 1s;
+  transition: all ease;
+}
+.Project-live > a,
+.Project-github > a {
+  text-decoration: none;
+  color: white;
 }

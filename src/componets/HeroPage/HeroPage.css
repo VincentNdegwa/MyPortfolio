@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .hero-details {
@@ -15,18 +16,27 @@
   position: absolute;
   text-align: center;
   margin-bottom: 10%;
+  justify-content: center;
+  margin-top: 10%;
 }
+
 .hero-name {
   font-size: 10em;
+  font-weight: 500;
 }
 /* .hero-name > span {
   font-size: 3em;
 } */
 .hero-skills {
-  font-size: clamp(0.5em, 1.5em, 3em);
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 2em;
+  margin-left: 15%;
+  margin-right: 15%;
   color: #2272ff;
+  text-align: center;
+}
+.hero-skills > p {
+  font-size: 0.7em;
+  color: white;
 }
 span {
   color: #2272ff;
@@ -34,11 +44,11 @@ span {
 .span-name2 {
   color: #ffff00;
 }
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .hero-name {
     font-size: 50px;
   }
   .hero-skills {
     font-size: 30px;
   }
-}
+} */
