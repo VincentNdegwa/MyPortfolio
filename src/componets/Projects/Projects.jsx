@@ -48,7 +48,7 @@ export default function Projects() {
                       </div>
                     </div>
                     <div className="Project-description">
-                      <p>{item.projectDescription}</p>
+                      {/* <p>{item.projectDescription}</p> */}
                     </div>
                   </div>
                 </div>

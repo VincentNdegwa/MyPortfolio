@@ -15,7 +15,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: 15% 85%;
   margin-top: 3em;
 }
 header {
@@ -31,12 +31,13 @@ header {
   align-items: center;
 }
 .AboutMe-description {
-  width: 99%;
-  height: 99%;
+  width: 70%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #222222;
+  margin-left: 4%;
 }
 .about-me-main {
   width: 100%;
