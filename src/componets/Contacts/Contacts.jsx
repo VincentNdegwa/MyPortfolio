@@ -91,10 +91,6 @@ export default function Contacts() {
         </div>
 
         <div className="contact-item-right">
-          <div className="contact-image">
-            <img src="./images/contact1.jpg" alt="contact" />
-            <p>Contact for more information</p>
-          </div>
           <div className="contact-AboutMe-socials">
             <div className="AboutMe-icon">
               <a href="http://">

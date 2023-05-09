@@ -8,31 +8,6 @@ function AboutMe() {
     <div className="AboutMe" id="About">
       <header>About Me</header>
       <section className="About-container">
-        <div className="AboutMe-socials">
-          <div className="AboutMe-icon">
-            <a href="http://">
-              <FaLinkedinIn />
-            </a>
-          </div>
-          <div className="AboutMe-icon">
-            <a href="http://">
-              <FaInstagram />
-            </a>
-          </div>
-          <div className="AboutMe-icon">
-            <a href="https://github.com/VincentNdegwa">
-              <FaGithub />
-            </a>
-          </div>
-          <div className="AboutMe-icon">
-            <a href="mailto:ndegwavincent7@gmail.com">
-              <AiOutlineMail />
-            </a>
-          </div>
-          <div className="download-cv">
-            <a href="#cv">Download CV</a>
-          </div>
-        </div>
         <div className="AboutMe-description">
           <div className="about-me-main">
             {/* //// */}
@@ -93,6 +68,31 @@ function AboutMe() {
               </div>
             </div>
             {/* //// */}
+          </div>
+          <div className="AboutMe-socials">
+            <div className="AboutMe-icon">
+              <a href="http://">
+                <FaLinkedinIn />
+              </a>
+            </div>
+            <div className="AboutMe-icon">
+              <a href="http://">
+                <FaInstagram />
+              </a>
+            </div>
+            <div className="AboutMe-icon">
+              <a href="https://github.com/VincentNdegwa">
+                <FaGithub />
+              </a>
+            </div>
+            <div className="AboutMe-icon">
+              <a href="mailto:ndegwavincent7@gmail.com">
+                <AiOutlineMail />
+              </a>
+            </div>
+            <div className="download-cv">
+              <a href="#cv">Download CV</a>
+            </div>
           </div>
         </div>
       </section>

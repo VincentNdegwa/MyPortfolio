@@ -23,6 +23,7 @@
 .hero-name {
   font-size: 10em;
   font-weight: 500;
+  color: gray;
 }
 /* .hero-name > span {
   font-size: 3em;
@@ -36,7 +37,7 @@
 }
 .hero-skills > p {
   font-size: 0.7em;
-  color: white;
+  color: gray;
 }
 span {
   color: #2272ff;

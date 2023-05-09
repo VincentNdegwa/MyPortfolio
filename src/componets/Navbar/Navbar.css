@@ -1,7 +1,7 @@
 .navbar {
   position: fixed;
   color: white;
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
   bottom: 0;
@@ -18,7 +18,7 @@
 .navbar-active {
   position: fixed;
   color: white;
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
   bottom: 0;
