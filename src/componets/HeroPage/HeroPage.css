@@ -45,11 +45,13 @@ span {
 .span-name2 {
   color: #ffff00;
 }
-/* @media screen and (min-width: 1000px) {
+@media screen and (max-width: 500px) {
   .hero-name {
-    font-size: 50px;
+    font-size: 4em;
+    font-weight: 500;
+    color: gray;
   }
   .hero-skills {
-    font-size: 30px;
+    font-size: 2em;
   }
-} */
+}

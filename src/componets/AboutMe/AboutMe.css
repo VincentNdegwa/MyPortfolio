@@ -72,8 +72,6 @@ header {
   color: gray;
 }
 .about-image {
-  /* width: 30%;
-  height: 70%; */
   width: 15em;
   height: 15em;
 }
@@ -131,4 +129,20 @@ header {
 .download-cv > a:hover,
 .AboutMe-icon > a:hover {
   color: #2272ff;
+}
+
+@media screen and (max-width: 1000px) {
+  .AboutMe-description {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .AboutMe-description {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .AboutMe-description {
+    width: 100%;
+  }
 }

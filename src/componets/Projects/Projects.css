@@ -80,3 +80,12 @@
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width: 500px) {
+  .Projects-item-holder {
+    width: 100%;
+    height: auto;
+  }
+  .Projects-container {
+    width: 100%;
+  }
+}

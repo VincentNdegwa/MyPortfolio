@@ -35,8 +35,7 @@ const ProjecData = [
       "This is my weather app that uses OpenWeatherMap API. The user can enter any valid city in the world the the weather trends are displayed for the user. The website displayes the current and the fore weather trends of the city entered by the user.",
     projectImg: weatherImg,
     projectGithub: "https://github.com/VincentNdegwa/WeatherApp",
-    projecLive:
-      "https://6456d8ea0eaef471bf328266--fancy-kheer-c87f09.netlify.app/",
+    projecLive: "https://fancy-kheer-c87f09.netlify.app/",
   },
 ];
 export default ProjecData;

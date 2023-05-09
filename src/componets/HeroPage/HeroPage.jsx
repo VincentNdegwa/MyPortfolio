@@ -17,10 +17,7 @@ function HeroPage() {
             </div>
 
             <div className="hero-skills">
-              <div>
-                Skilled Software Engineer with a Passion for Front-End Web
-                Development and User-Centered Design
-              </div>
+              <div>Front-End Web Developer/UI-Designer</div>
 
               <p>
                 Solving problems and simplifying the complex through elegant

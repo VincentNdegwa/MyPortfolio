@@ -76,3 +76,11 @@ a {
   background: #222222;
   border-radius: 10px;
 }
+@media screen and (max-width: 683px) {
+  .nav {
+    width: 5em;
+  }
+  .nav-text {
+    font-size: 0.9em;
+  }
+}

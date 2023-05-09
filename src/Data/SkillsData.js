@@ -1,11 +1,10 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3, DiJavascript1, DiReact, DiBootstrap } from "react-icons/di";
+import { DiCss3, DiJavascript1, DiReact } from "react-icons/di";
 import { FiFigma } from "react-icons/fi";
 const htmlIcon = <AiFillHtml5 />;
 const cssIcon = <DiCss3 />;
 const jsIcon = <DiJavascript1 />;
 const reactIcon = <DiReact />;
-const bstIcon = <DiBootstrap />;
 const figmaIcon = <FiFigma />;
 
 const skillData = [
@@ -29,11 +28,7 @@ const skillData = [
     skillRange: 50,
     skillIcon: figmaIcon,
   },
-  {
-    skillName: "BootStrap",
-    skillRange: 70,
-    skillIcon: bstIcon,
-  },
+
   {
     skillName: "React",
     skillRange: 78,
