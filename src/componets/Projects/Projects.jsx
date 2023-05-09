@@ -23,9 +23,7 @@ export default function Projects() {
                     <div className="Project-image">
                       <img src={item.projectImg} alt="playtube" />
                     </div>
-                    <div className="Project-name">
-                      <h2>{item.projectName}</h2>
-                    </div>
+                    <div className="Project-name">{item.projectName}</div>
                     <div className="Project-github-live">
                       <div className="Project-github">
                         <a
@@ -48,7 +46,7 @@ export default function Projects() {
                       </div>
                     </div>
                     <div className="Project-description">
-                      {/* <p>{item.projectDescription}</p> */}
+                      <p>{item.projectDescription}</p>
                     </div>
                   </div>
                 </div>
