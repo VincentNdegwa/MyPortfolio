@@ -27,7 +27,7 @@ const ProjecData = [
     projectImg: OMSImg,
     projectGithub:
       "https://github.com/VincentNdegwa/Opportunity-Management-System",
-    projecLive: "https://fabulous-biscochitos-b4a230.netlify.app/",
+    projecLive: "https://coruscating-stroopwafel-5d2c17.netlify.app/",
   },
   {
     projectName: "Weath Forecast",

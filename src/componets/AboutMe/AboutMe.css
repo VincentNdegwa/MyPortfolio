@@ -57,6 +57,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  column-gap: 0.5em;
 }
 .about-text {
   width: 70%;
@@ -85,7 +86,7 @@ header {
   width: 100%;
   height: 100%;
   flex-direction: row-reverse;
-  padding-bottom: 1em;
+  column-gap: 0.5em;
   justify-content: center;
   align-items: center;
 }
@@ -145,4 +146,25 @@ header {
   .AboutMe-description {
     width: 100%;
   }
+  .AboutMe-icon {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 1.1em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .download-cv {
+    padding: 0.5em;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text > p {
+    font-size: 1.2em;
+  }
 }
+/* @media screen and (max-width: 500px) {
+
+} */
