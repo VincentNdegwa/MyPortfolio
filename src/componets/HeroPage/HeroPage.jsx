@@ -1,13 +1,19 @@
 import React from "react";
 import "./HeroPage.css";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 function HeroPage() {
+  const ref = React.useRef(null);
+  const inView = useInView(ref, { once: true });
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
+      ref={ref}
+      style={{
+        width: "100%",
+        transform: inView ? "none" : "translateY(-200px)",
+        opacity: inView ? 1 : 0,
+        transition: "all ease 1s",
+      }}
     >
       <div className="hero-page">
         <div className="hero-details">

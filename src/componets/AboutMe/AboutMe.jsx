@@ -2,16 +2,54 @@ import React from "react";
 import "./AboutMe.css";
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { motion, useInView } from "framer-motion";
 
 function AboutMe() {
+  const ref = React.useRef();
+  const isInView = useInView(ref, { once: true });
+  const container = {
+    hidden: { opacity: -1, scale: 1 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.9,
+        staggerChildren: 0.9,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { x: "300px", opacity: -1 },
+    visible: {
+      x: 0,
+      opacity: 1,
+    },
+  };
+  const item2 = {
+    hidden: { x: "-300px", opacity: -1 },
+    visible: {
+      x: 0,
+      opacity: 1,
+    },
+  };
+
   return (
     <div className="AboutMe" id="About">
       <header>About Me</header>
       <section className="About-container">
         <div className="AboutMe-description">
-          <div className="about-me-main">
+          <motion.div
+            ref={ref}
+            variants={container}
+            animate={isInView ? "visible" : "hidden"}
+            className="about-me-main"
+            style={{
+              transition: "all ease",
+            }}
+          >
             {/* //// */}
-            <div className="about-me-item item1">
+            <motion.div variants={item} className="about-me-item item1">
               <div className="about-text">
                 <p>
                   Hi there, my name is Vincent, and I'm currently a software
@@ -23,9 +61,9 @@ function AboutMe() {
               <div className="about-image">
                 <img src="./images/about1.png" alt="" />
               </div>
-            </div>
+            </motion.div>
 
-            <div className="about-me-item item2 ">
+            <motion.div variants={item2} className="about-me-item item2 ">
               <div className="about-text">
                 <p>
                   Through my studies, I have obtained skills in web development,
@@ -38,9 +76,9 @@ function AboutMe() {
               <div className="about-image">
                 <img src="./images/about3.webp" alt="" />
               </div>
-            </div>
+            </motion.div>
 
-            <div className="about-me-item item1 ">
+            <motion.div variants={item} className="about-me-item item1 ">
               <div className="about-text">
                 <p>
                   I believe that creativity is an essential part of any
@@ -53,8 +91,9 @@ function AboutMe() {
               <div className="about-image">
                 <img src="./images/about2.jpeg" alt="" />
               </div>
-            </div>
-            <div className="about-me-item item2">
+            </motion.div>
+
+            <motion.div variants={item2} className="about-me-item item2">
               <div className="about-text">
                 <p>
                   I believe in the power of collaboration and enjoy working with
@@ -66,17 +105,17 @@ function AboutMe() {
               <div className="about-image">
                 <img src="./images/image3.webp" alt="" />
               </div>
-            </div>
+            </motion.div>
             {/* //// */}
-          </div>
+          </motion.div>
           <div className="AboutMe-socials">
             <div className="AboutMe-icon">
-              <a href="http://">
+              <a href="https://www.linkedin.com/in/vincent-ndegwa-">
                 <FaLinkedinIn />
               </a>
             </div>
             <div className="AboutMe-icon">
-              <a href="http://">
+              <a href="https://instagram.com/slumpy.teen">
                 <FaInstagram />
               </a>
             </div>
@@ -91,7 +130,9 @@ function AboutMe() {
               </a>
             </div>
             <div className="download-cv">
-              <a href="#cv">Download CV</a>
+              <a href="./Vincent Ndegwa Resume 1.pdf" download>
+                Download CV
+              </a>
             </div>
           </div>
         </div>

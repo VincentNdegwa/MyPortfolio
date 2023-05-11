@@ -99,13 +99,10 @@ header {
 .AboutMe-socials {
   display: flex;
   flex-direction: row;
-  row-gap: 0.5em;
-  margin-left: 2em;
-  margin-top: 3em;
+  column-gap: 1em;
 }
 .AboutMe-icon {
   background: rgba(0, 0, 0, 0.2);
-  padding: 0.5em;
   border-radius: 1em;
   font-size: 2em;
   width: 2em;

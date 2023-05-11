@@ -93,12 +93,12 @@ export default function Contacts() {
         <div className="contact-item-right">
           <div className="contact-AboutMe-socials">
             <div className="AboutMe-icon">
-              <a href="http://">
+              <a href="https://www.linkedin.com/in/vincent-ndegwa-">
                 <FaLinkedinIn />
               </a>
             </div>
             <div className="AboutMe-icon">
-              <a href="http://">
+              <a href="https://instagram.com/slumpy.teen">
                 <FaInstagram />
               </a>
             </div>
